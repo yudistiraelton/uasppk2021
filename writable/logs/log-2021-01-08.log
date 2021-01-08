@@ -1,0 +1,15 @@
+CRITICAL - 2021-01-08 08:09:51 --> Too few arguments to function App\Models\Login_Model::checkLogin(), 1 passed in C:\xampp\htdocs\uasppk2021\app\Controllers\Auth.php on line 66 and exactly 3 expected
+#0 C:\xampp\htdocs\uasppk2021\app\Controllers\Auth.php(66): App\Models\Login_Model->checkLogin('dodidodi')
+#1 C:\xampp\htdocs\uasppk2021\system\CodeIgniter.php(870): App\Controllers\Auth->login()
+#2 C:\xampp\htdocs\uasppk2021\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\uasppk2021\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\uasppk2021\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-08 08:25:18 --> password_verify() expects exactly 2 parameters, 4 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'password_verify...', 'C:\\xampp\\htdocs...', 68, Array)
+#1 C:\xampp\htdocs\uasppk2021\app\Controllers\Auth.php(68): password_verify('dodi5', '$2y$10$KQkvdd2k...', 'Dodi Dodi', 'dodi@gmail.com')
+#2 C:\xampp\htdocs\uasppk2021\system\CodeIgniter.php(870): App\Controllers\Auth->login()
+#3 C:\xampp\htdocs\uasppk2021\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\xampp\htdocs\uasppk2021\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\uasppk2021\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
